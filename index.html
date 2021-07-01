@@ -1,0 +1,93 @@
+
+
+<head> 
+<title>
+Tap-Tap by Satish 
+
+</title>
+
+   <meta name="viewport" content="width=device-width" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+
+<!-- font -->
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+</head> 
+
+
+<body>
+<div>
+    <h3>Tap-tap by Satish </h3>
+</div>
+
+    <div class="hi">
+        ScOrE :- <span class="score"></span>
+    </div>
+    <div class="land">
+        <div id="hole1"></div>
+        <div id="hole2"></div>
+        <div id="hole3"></div>
+        <div id="hole4"></div>
+        <div id="hole5"></div>
+    </div>
+
+    <div>
+        <h1>Support Developer </h1>
+        <h3>Buy me a Coffee</h3>
+<p> <a href="image/25 QR.jpeg">25$</a> <a href="image/50 QR.jpeg">50$</a> <a href="image/100 QR.jpeg">100$</a></p>
+
+<br><br>
+<p class="copyright">© Satish_shekhar 2021</p>
+    </div>
+
+
+
+
+    <!-- java script -->
+    <script>
+
+        $(document).ready(function() {
+            var t = setInterval(func, 550);
+
+            var score = 0;
+
+            function func() {
+                var rndm = Math.ceil(Math.random()*5);
+                $(".score").text(score);
+                switch (rndm) {
+                    case 1:
+                        hole = $("#hole1");
+                        break;
+                    case 2:
+                        hole = $("#hole2");
+                        break;
+                    case 3:
+                        hole = $("#hole3");
+                        break;
+                    case 4:
+                        hole = $("#hole4");
+                        break;
+                    default:
+                        hole = $("#hole5");
+                    }
+
+                    $("#hole1").text("");
+                    $("#hole2").text("");
+                    $("#hole3").text("");
+                    $("#hole4").text("");
+                    $("#hole5").text("");
+                    hole.html("<p>🙂</p>");
+                    $('p').click(function() {
+                        score++;
+                        navigator.vibrate(100);
+                    });
+                }
+            });
+
+        </script>
+
+        <script src="index.js" ></script>
+    </body>
+   

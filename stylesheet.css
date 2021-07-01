@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: lightblue;
+    text-align: center;
+}
+
+/* New css */
+
+h1 {
+    color: #184ddf;
+    font-size: 5.625rem;
+    margin: 100px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #1815e6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9rem;
+    font-weight: normal ;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    line-height: 3;
+    text-decoration: none;
+}
+a:hover {
+    color: #5c0bf3;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/* till here */
+
+.score {
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.hi {
+    margin: 25;
+    padding: 10;
+    color: grey;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    background: black;
+    border-radius: 25%;
+    box-shadow:inset 10px 10px grey, inset -10px -10px grey;
+}
+.land {
+    padding: 37.5;
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 300;
+    height: 400;
+    background: green;
+    border-radius: 10%;
+    box-shadow:inset 25px 10px brown;
+}
+#hole1 {
+    font-size: 50px;
+    padding: 6.25;
+    width: 75;
+    height: 75;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    box-shadow:inset 10px 10px grey;
+}
+#hole2 {
+    font-size: 50px;
+    padding: 6.25;
+    left: 225;
+    width: 75;
+    height: 75;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    box-shadow:inset 10px 10px grey;
+}
+#hole3 {
+    font-size: 50px;
+    padding: 6.25;
+    top: 410;
+    left: 155;
+    width: 75;
+    height: 75;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    box-shadow:inset 10px 10px grey;
+}
+#hole4 {
+    font-size: 50px;
+    padding: 6.25;
+    top: 540;
+    width: 75;
+    height: 75;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    box-shadow:inset 10px 10px grey;
+}
+#hole5 {
+    font-size: 50px;
+    padding: 6.25;
+    top: 540;
+    left: 225;
+    width: 75;
+    height: 75;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    box-shadow:inset 10px 10px grey;
+}
