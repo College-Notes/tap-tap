@@ -1,5 +1,6 @@
-alert("Comment ur score,Enjoiii and donate")
 
+alert ("Try to hit emoji. It may take some time. But try dont't cry");
+alert("Comment ur score,Enjoiii and donate");
 
 
         $(document).ready(function() {
